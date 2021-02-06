@@ -12,7 +12,7 @@ To date, AdelaiDet implements the following algorithms:
 * [CondInst](configs/CondInst/README.md)
 * [SOLO](https://arxiv.org/abs/1912.04488) ([mmdet version](https://github.com/WXinlong/SOLO))
 * [SOLOv2](configs/SOLOv2/README.md)
-* [BoxInst](https://arxiv.org/abs/2012.02310) _to be released_
+* [BoxInst](https://arxiv.org/abs/2012.02310) _to be released_ ([video demo](https://www.youtube.com/watch?v=NuF8NAYf5L8))
 * [DirectPose](https://arxiv.org/abs/1911.07451) _to be released_
 
 
@@ -74,7 +74,9 @@ Note that:
 
 ## Installation
 
-First install Detectron2 following the official guide: [INSTALL.md](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md). Please use Detectron2 with commit id [9eb4831](https://github.com/facebookresearch/detectron2/commit/9eb4831f742ae6a13b8edb61d07b619392fb6543) for now. The incompatibility with the latest one will be fixed soon.
+First install Detectron2 following the official guide: [INSTALL.md](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md).
+
+*Please use Detectron2 with commit id [9eb4831](https://github.com/facebookresearch/detectron2/commit/9eb4831f742ae6a13b8edb61d07b619392fb6543) if you have any issues related to Detectron2.*
 
 Then build AdelaiDet with:
 
@@ -190,10 +192,10 @@ If you use this toolbox in your research or wish to refer to the baseline result
 }
 
 @inproceedings{wang2020solov2,
-  title   =  {{SOLOv2}: Dynamic and Fast Instance Segmentation},
-  author  =  {Wang, Xinlong and Zhang, Rufeng and Kong, Tao and Li, Lei and Shen, Chunhua},
+  title     =  {{SOLOv2}: Dynamic and Fast Instance Segmentation},
+  author    =  {Wang, Xinlong and Zhang, Rufeng and Kong, Tao and Li, Lei and Shen, Chunhua},
   booktitle =  {Proc. Advances in Neural Information Processing Systems (NeurIPS)},
-  year    =  {2020}
+  year      =  {2020}
 }
 
 @article{tian2019directpose,
