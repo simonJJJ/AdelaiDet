@@ -1,4 +1,8 @@
-# AdelaiDet
+<div align="center">
+    <img src="docs/adel-logo.svg" width="160" >
+</div>
+
+#  AdelaiDet
 
 AdelaiDet is an open source toolbox for multiple instance-level recognition tasks on top of [Detectron2](https://github.com/facebookresearch/detectron2).
 All instance-level recognition works from our group are open-sourced here.
@@ -155,12 +159,22 @@ If you use this toolbox in your research or wish to refer to the baseline result
   howpublished = {\url{https://git.io/adelaidet}},
   year =         {2019}
 }
+```
+and relevant publications:
+```BibTeX
 
 @inproceedings{tian2019fcos,
   title     =  {{FCOS}: Fully Convolutional One-Stage Object Detection},
   author    =  {Tian, Zhi and Shen, Chunhua and Chen, Hao and He, Tong},
   booktitle =  {Proc. Int. Conf. Computer Vision (ICCV)},
   year      =  {2019}
+}
+
+@article{tian2021fcos,
+  title   =  {{FCOS}: A Simple and Strong Anchor-free Object Detector},
+  author  =  {Tian, Zhi and Shen, Chunhua and Chen, Hao and He, Tong},
+  journal =  {IEEE T. Pattern Analysis and Machine Intelligence (TPAMI)},
+  year    =  {2021}
 }
 
 @inproceedings{chen2020blendmask,

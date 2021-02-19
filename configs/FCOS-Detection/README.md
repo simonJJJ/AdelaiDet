@@ -3,12 +3,18 @@
     FCOS: Fully Convolutional One-Stage Object Detection;
     Zhi Tian, Chunhua Shen, Hao Chen, and Tong He;
     In: Proc. Int. Conf. Computer Vision (ICCV), 2019.
-    arXiv preprint arXiv:1904.01355 
+[arXiv preprint arXiv:1904.01355](https://arxiv.org/abs/1904.01355)
+    
+    FCOS: A Simple and Strong Anchor-free Object Detector;
+    Zhi Tian, Chunhua Shen, Hao Chen, and Tong He;
+    IEEE T. Pattern Analysis and Machine Intelligence (TPAMI), 2021.
+[arXiv preprint arXiv:2006.09214](https://arxiv.org/abs/2006.09214)
+    
 
-[[`Paper`](https://arxiv.org/abs/1904.01355)] [[`BibTeX`](#citing-fcos)]
+[`BibTeX`](#citing-fcos)
 
 # Installation & Quick Start
-No special setup needed. The [default instruction](../../README.md#Installation) is fine.
+No special setup needed. The [default instruction](../../README.md#Installation) would work.
 
 ## Models
 ### COCO Object Detecton Baselines with [FCOS](https://arxiv.org/abs/1904.01355)
@@ -50,5 +56,13 @@ If you use FCOS in your research or wish to refer to the baseline results, pleas
   author    =  {Tian, Zhi and Shen, Chunhua and Chen, Hao and He, Tong},
   booktitle =  {Proc. Int. Conf. Computer Vision (ICCV)},
   year      =  {2019}
+}
+```
+```BibTeX
+@article{tian2021fcos,
+  title   =  {{FCOS}: A Simple and Strong Anchor-free Object Detector},
+  author  =  {Tian, Zhi and Shen, Chunhua and Chen, Hao and He, Tong},
+  journal =  {IEEE T. Pattern Analysis and Machine Intelligence (TPAMI)},
+  year    =  {2021}
 }
 ```
